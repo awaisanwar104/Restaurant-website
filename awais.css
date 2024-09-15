@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #2F2F2F;
+}
+
+.container {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.button-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#startWithoutLogin {
+    padding: 10px 20px;
+    background-color: #d3d3d3;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#startWithoutLogin:hover {
+    background-color: #b0b0b0;
+}
+
+.form-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-wrapper h2 {
+    margin-bottom: 20px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.form label {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.form input[type="email"],
+.form input[type="password"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.form button {
+    padding: 10px;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form button:hover {
+    background-color: #0056b3;
+}
+
+.switch-form {
+    margin-top: 10px;
+}
+
+.switch-form a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.switch-form a:hover {
+    text-decoration: underline;
+}
